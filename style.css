@@ -22,8 +22,8 @@ footer a{
 }
 
 .container{
-	width:70%;
-	margin: 0 15%;
+	width:90%;
+	margin: 0 5%;
 	background-color: white;
 }
 
@@ -42,18 +42,28 @@ footer a{
 	text-align: center;
 }
 
+.list-details{
+	padding-left:20px;
+}
+
 @media (min-width: 600px) {
+
+	.container{
+		width:70%;
+		margin: 0 15%;
+		background-color: white;
+	}
 
 	.contact li{
 		display: inline;
 	}
 
 	.badge{
-		display: inline;
+		display: inline !important;
 		background-color: red;
 		color: white !important;
 		font-size:10px;
-		padding: 10px !important;
+		padding: 5px !important;
 		border-radius: 4px;
 		float: right;
 	}
@@ -61,6 +71,10 @@ footer a{
 .contact a{
 	text-decoration: none;
 	color: black;
+}
+
+.contact a:hover{
+	text-decoration: underline;
 }
 
 .subheading{
