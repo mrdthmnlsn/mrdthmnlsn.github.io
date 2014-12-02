@@ -67,3 +67,11 @@ footer{
 	margin: 50px 15%;
 	width: 70%;
 }
+
+.badge{
+	background-color: red;
+	color: white;
+	font-size:10px;
+	padding: 5px;
+	border-radius: 4px;
+}
