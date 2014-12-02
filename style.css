@@ -35,12 +35,6 @@ footer a{
 	width: 90px;
 }
 
-
-span{
-	display: inline;
-	float: right;
-}
-
 .contact{
 	padding: 0;
 	margin: 0;
@@ -48,11 +42,22 @@ span{
 	text-align: center;
 }
 
-.contact li{
-	display: inline;
+@media (min-width: 600px) {
 
+	.contact li{
+		display: inline;
+	}
+
+	.badge{
+		display: inline;
+		background-color: red;
+		color: white !important;
+		font-size:10px;
+		padding: 10px !important;
+		border-radius: 4px;
+		float: right;
+	}
 }
-
 .contact a{
 	text-decoration: none;
 	color: black;
@@ -69,9 +74,13 @@ footer{
 }
 
 .badge{
-	background-color: red;
-	color: white;
-	font-size:10px;
-	padding: 5px;
+	display:block;
+	color: gray;
+	font-size:15px;
+	padding: 0px;
 	border-radius: 4px;
+}
+
+.bio{
+	text-align: justify;
 }
